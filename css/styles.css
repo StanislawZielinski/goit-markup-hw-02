@@ -6,6 +6,11 @@
 body {
     font-family: var(--main-font);
 }
+/* a:link {
+  text-decoration: none;
+  
+  } */
+
 .font-title {
   font-family: Raleway;
   font-style: normal;
