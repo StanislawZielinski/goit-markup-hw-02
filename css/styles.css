@@ -1,4 +1,12 @@
-.title {
+:root {
+    --main-color: #2196F3;
+    --main-font: font-family: 'Roboto', sans-serif;    
+    --secondary-font: font-family: 'Raleway', sans-serif;  
+}
+body {
+    font-family: var(--main-font);
+}
+.font-title {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
