@@ -163,12 +163,26 @@ color: #757575;
 .footer {
   background: #2F303A;
 }
-.address-footer-list-item-localization {
+.header-logo-link-footer {
+  font-family: var(--Raleway-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192em;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.address-footer-list-item-localization-link {
+font-style: normal;
 font-size: 14px;
 line-height: 1.717em;
 /* or 171% */
 letter-spacing: 0.03em;
 color: #FFFFFF;
+}
+
+.address-footer-list-item-localization-link:hover,
+.address-footer-list-item-localization-link:focus {
+  color: var(--secondary-color);
 }
 
 .address-footer-list-item-contacts-link {
@@ -178,5 +192,10 @@ color: #FFFFFF;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-footer-list-item-contacts-link:hover, 
+.address-footer-list-item-contacts-link:focus {
+  color: var(--secondary-color);
 }
 /* section FOOTER END*/
