@@ -1,11 +1,11 @@
 :root {
     --main-color: #212121;;
     --secondary-color: #2196F3;
-    --main-font: font-family: 'Roboto', sans-serif;    
-    --secondary-font: font-family: 'Raleway', sans-serif;  
+    --Roboto-font: font-family: 'Roboto', sans-serif;    
+    --Raleway-font: font-family: 'Raleway', sans-serif;  
 }
 body {
-    font-family: var(--main-font);
+    font-family: var(--Roboto-font);
     color:var(--main-color);
 }
 a:link {
@@ -15,9 +15,17 @@ a:link {
 /* section HEADER */
 
 .header-logo {
-  font-family: var(--secondary-font);
-  font-weight: bold;
+  font-family: var(--Raleway-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192em;
   letter-spacing: 0.03em;
+}
+.header-logo-blue {
+  color:var(--secondary-color) ;
+  }
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus {
+  color: var(--secondary-color);
 }
