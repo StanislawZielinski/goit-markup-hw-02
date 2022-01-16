@@ -26,17 +26,6 @@ a:link {
   color:var(--secondary-color) ;
 }
 
-.navigation-list {
-  color: var(--main-color);
-}
-.navigation-list-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143em;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-}
-
 .navigation-list-item-link .address-list-item-link {
   font-style: normal;
   font-weight: 500;
