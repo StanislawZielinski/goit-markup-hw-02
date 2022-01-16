@@ -1,5 +1,5 @@
 :root {
-    --main-color: #212121;;
+    --main-color: #212121;
     --secondary-color: #2196F3;
     --Roboto-font: font-family: 'Roboto', sans-serif;    
     --Raleway-font: font-family: 'Raleway', sans-serif;  
@@ -26,6 +26,9 @@ a:link {
   color:var(--secondary-color) ;
 }
 
+.navigation-list {
+  color: var(--main-color);
+}
 .navigation-list-item {
   font-weight: 500;
   font-size: 14px;
