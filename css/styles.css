@@ -33,7 +33,8 @@ a:link {
   letter-spacing: 0.02em;
 }
 
-.navigation-list-item-link {
+.navigation-list-item-link .address-list-item-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143em;
@@ -47,11 +48,6 @@ a:link {
 }
 
 .address-list-item-link {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.143em;
-letter-spacing: 0.02em;
 color: #757575;
 }
 
@@ -199,3 +195,43 @@ color: #FFFFFF;
   color: var(--secondary-color);
 }
 /* section FOOTER END*/
+
+
+
+
+
+
+
+
+/* =============PORTFOLIO============ */
+
+/* filtr content */
+.btn-filtr-content {
+  background: #F5F4FA;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  text-align: center;
+  letter-spacing: 0.03em; 
+}
+.btn-filtr-content:hover, .btn-filtr-content:focus {
+  background: var(--secondary-color);
+  color: #FFFFFF;
+}
+/* filtr content END*/
+
+/* portfolio content */
+.portfolio-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;  
+}
+.portfolio-list-item-description {
+  font-size: 16px;
+  line-height: 1.875em;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* portfolio content END*/
