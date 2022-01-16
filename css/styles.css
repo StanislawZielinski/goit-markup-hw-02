@@ -23,9 +23,57 @@ a:link {
 }
 .header-logo-blue {
   color:var(--secondary-color) ;
-  }
+}
+
+.navigation-list-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143em
+  letter-spacing: 0.02em;
+}
 
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus {
   color: var(--secondary-color);
+}
+
+.address-list-item-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143em
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.address-list-item-link:hover,
+.address-list-item-link:focus {
+  color: var(--secondary-color);
+}
+
+.title-section{
+ background:  #2F303A;
+}
+.title-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364em;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.title-button {
+background: var(--secondary-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875em;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
 }
