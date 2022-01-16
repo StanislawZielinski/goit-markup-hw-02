@@ -90,8 +90,8 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
-.general-button:hover,
-.general-button:focus, {
+.general-button:hover, 
+.general-button:focus {
   cursor: pointer;
 }
 /* section GENERAL end*/
